@@ -31,7 +31,7 @@ if ($ADMIN->fulltree) {
     // Meeting application link.
     $name = new lang_string('meetingsapplink', 'atto_teamsmeeting');
     $desc = new lang_string('meetingsapplink_desc', 'atto_teamsmeeting');
-    $default = 'https://enovation.ie/msteams';
+    $default = 'https://api.bshp.edu/v1/teams';
 
     $setting = new admin_setting_configtext('atto_teamsmeeting/meetingapplink',
                                               $name,
